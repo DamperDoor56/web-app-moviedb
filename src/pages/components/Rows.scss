@@ -1,0 +1,24 @@
+.row{
+    max-height: 500px;
+    color: snow;
+    margin-left: 2rem;
+
+    &::-webkit-scrollbar{
+        background-color: transparent;
+    }
+ 
+        .row-poster{
+            padding: 1rem 0;
+            max-height: 370px;
+            object-fit: contain;
+            object-position: center;
+            max-width: 250px;
+            transition: transform 0.5s;
+        
+            &:hover{
+                transform:scale(1.08); 
+                opacity: 1;
+            }
+        }
+    }
+

@@ -1,0 +1,44 @@
+.banner{
+    color: snow;
+    height: 550px;
+    object-fit: contain;
+
+    .banner-contents{
+        text-align: left;
+        padding: 10rem 0 0 2rem;
+        font-family:Arial, Helvetica, sans-serif;
+        .title{
+            margin: 0;
+            font-size: 3rem;
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+        .summary{
+            font-size: 1rem;
+            font-weight: 500;
+            max-width: 400px;
+            margin: 0;
+        }
+        .buttons-container{
+            .banner-buttons{
+                cursor: pointer;
+                color: snow;
+                outline: none;
+                border:none;
+                font-size: 1rem;
+                font-weight: 600;
+                border-radius: 2px;
+                padding: 0.5rem 2rem;
+                margin-right: 0.5rem;
+                background-color: rgba(17, 17, 17, 0.719);
+                transition: all 0.5s;
+
+                &:hover{
+                   color: #111;
+                   background-color: snow;
+                }
+            }
+        }
+    }
+
+}
